@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form making</title>
+</head>
+<body>
+    
+    <header></header>
+
+    <main>
+          
+          <!-- to create form form tag is used and action attribute is use to send the form data to the backend for processing -->
+          <form action="">
+
+            <!-- <input> tag is used to create input options 
+          
+              type attribute is to define which type if input taken 
+            
+          -->
+            <input type="text" placeholder="Write a siary here">
+            <br><br>
+            <input type="password" placeholder="password">
+            <br><br>
+
+            <!-- label tag is used to make whole option clickable 
+
+              id attribute is used to provide special identity to the input option
+            
+              radio buttons are used to create single choice option input 
+
+
+            -->
+
+            <h5>Select your class</h5>
+            <br>
+
+            <label for="id1">
+              <input type="radio" value="class XI" name="class" id="id1" >class XI
+            </label>
+
+            <br>
+            <label for="id2">
+            <input type="radio" value="class XII" name="class" id="id2">class XII
+          </label>
+          
+          <!-- class attribute in div tag is used to make group of many div tags like class in real life and id attribute is like assigning roll numbers  -->
+          <div class="pandu" id="1">
+
+          </div>
+
+          <div class="pandu" id="2">
+
+          </div>
+
+          <!-- checkboxes ale multiple selection type inputs -->
+          
+          <h5>Select your fav subject</h5>
+          <br>
+          <label>
+            <input type="checkbox" value="maths" name="subject" id="101">Maths
+           </label>
+
+           <br>
+           <label>
+           <input type="checkbox" value="physics" name="subject" id="102">physics
+           </label>
+
+           <br>
+           <label>
+           <input type="checkbox" value="chemistry" name="subject" id="103">chemistry
+           </label>
+
+           <br>
+           <label>
+           <input type="checkbox" value="CS" name="subject" id="104">CS
+          </label>
+          <br>
+          
+          <textarea name="feedback" placeholder="Please give your  feedback here." rows="5" cols="15"></textarea>
+             
+
+            
+
+          </form>
+
+    </main>
+
+    <footer></footer>
+</body>
+</html>
